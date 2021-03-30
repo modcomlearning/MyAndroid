@@ -27,7 +27,7 @@
         android:layout_marginRight="10dp"
         android:inputType="numberDecimal"
         android:id="@+id/rate"/>
-    
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -39,7 +39,27 @@
         android:id="@+id/time"/>
 
 
-
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/calculate"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer to Show Here"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/answer"
+        />
 
 
 
